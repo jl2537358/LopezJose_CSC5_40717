@@ -43,6 +43,8 @@ int main(int argc, char** argv) {
     r=number/guess;
     guess=(guess+r)/2;
     r=number/guess;
+    guess=(guess+r)/2;  //Repeat so that it becomes more 
+    r=number/guess;     //accurate
     guess=(guess+r)/2;
     r=number/guess;
     guess=(guess+r)/2;
@@ -77,7 +79,7 @@ int main(int argc, char** argv) {
     r=number/guess;
     guess=(guess+r)/2;
     r=number/guess;
-    guess=(guess+r)/2;
+    guess=(guess+r)/2;   //More accurate
     r=number/guess;
     guess=(guess+r)/2;
     r=number/guess;
@@ -91,9 +93,7 @@ int main(int argc, char** argv) {
     r=number/guess;
     guess=(guess+r)/2;
     r=number/guess;
-    guess=(guess+r)/2;
-    r=number/guess;
-    guess=(guess+r)/2;
+    guess=(guess+r)/2;   //Bit more accurate
     r=number/guess;
     guess=(guess+r)/2;
     r=number/guess;
