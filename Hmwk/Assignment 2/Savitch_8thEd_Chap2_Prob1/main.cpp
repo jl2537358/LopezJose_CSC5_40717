@@ -48,9 +48,6 @@ int main(int argc, char** argv) {
         cout<<"Weight of cereal box is "<<wtPackTn<<"(metric tons)"<<endl;
         cout<<"Number of cereal boxes in a metric ton => "<<nPackTn<<endl;
     }
-    if(answer=='N'||answer=='n'){
-        cout<<"Thank you,"<<endl;
-        cout<<"Run again if you change your mind.";
-    }
+    
     return 0;
 }
